@@ -1,0 +1,74 @@
+# Exported from Fuse 1.3.0
+
+newmtl Body
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd teenBoy_Body_diffuse.png
+map_Ks teenBoy_Body_specular.png
+bump teenBoy_Body_normal.png
+map_Ns teenBoy_Body_gloss.png
+
+newmtl Shoes
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd teenBoy_Shoes_diffuse.png
+map_Ks teenBoy_Shoes_specular.png
+bump teenBoy_Shoes_normal.png
+map_Ns teenBoy_Shoes_gloss.png
+
+newmtl Top
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd teenBoy_Top_diffuse.png
+map_Ks teenBoy_Top_specular.png
+bump teenBoy_Top_normal.png
+map_Ns teenBoy_Top_gloss.png
+
+newmtl Bottom
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd teenBoy_Bottom_diffuse.png
+map_Ks teenBoy_Bottom_specular.png
+bump teenBoy_Bottom_normal.png
+map_Ns teenBoy_Bottom_gloss.png
+
+newmtl Hair
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd teenBoy_Hair_diffuse.png
+map_Ks teenBoy_Hair_specular.png
+bump teenBoy_Hair_normal.png
+map_Ns teenBoy_Hair_gloss.png
+
+newmtl Beard
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd teenBoy_Beard_diffuse.png
+map_Ks teenBoy_Beard_specular.png
+bump teenBoy_Beard_normal.png
+map_Ns teenBoy_Beard_gloss.png
+
