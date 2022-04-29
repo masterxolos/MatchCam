@@ -13,6 +13,8 @@ public class DetectObj : MonoBehaviour
     [SerializeField] private GameObject heartImage;
     [SerializeField] private int waitingTime = 2;
     private bool firstTime = true;
+
+    [SerializeField] private RotateCamera rotateCameraScript;
     private void Awake()
     {
         // Your code here
@@ -56,5 +58,7 @@ public class DetectObj : MonoBehaviour
         _camera.GetComponent<Transform>().position = new Vector3(23f, 1.48f, 32.43f);
         _camera.GetComponent<Transform>().rotation = Quaternion.Euler(5.1f, 266f, 0);
         heartImage.SetActive(false);
+        rotateCameraScript.enabled = false;
+
     }
 }
