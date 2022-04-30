@@ -22,6 +22,7 @@ public class MainIndicator : MonoBehaviour
 
     private void MoveFollowers()
     {
+        cam = Camera.main;
         Vector3 diff = transform.position - prevPos;
         foreach (var follower in followers)
         {

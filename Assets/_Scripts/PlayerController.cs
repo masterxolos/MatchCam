@@ -7,18 +7,17 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private LayerMask layerMask;
 
 
-    private Camera cam;
+    [SerializeField] private Camera cam;
     private GameObject selectedGameObject = null;
 
 
     private void Start()
     {
-        cam = Camera.main;
     }
 
     private void Update()
     {
-
+        
         if (Input.GetMouseButtonDown(0))
         {
             Vector3 mousePos = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10);
