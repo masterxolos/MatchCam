@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: "Assets/Scenes/eyl\xFCl scene.unity"
+    guid: 3393997b29f3e0542b27c99a02e57e76
   m_configObjects: {}

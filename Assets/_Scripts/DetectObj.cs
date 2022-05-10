@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Tabtale.TTPlugins;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -19,8 +20,10 @@ public class DetectObj : MonoBehaviour
     
     private void Awake()
     {
-        // Your code here
-        
+
+          // Initialize CLIK Plugin
+          TTPCore.Setup();
+          // Your code here
     }
 
     private void FixedUpdate()
