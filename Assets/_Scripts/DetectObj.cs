@@ -61,8 +61,8 @@ public class DetectObj : MonoBehaviour
         _camera.GetComponent<Camera>().targetTexture = null;
 
         _camera.GetComponent<Camera>().fieldOfView = 60;
-        _camera.GetComponent<Transform>().position = new Vector3(9.49f, 1.6f, 31.64f);
-        _camera.GetComponent<Transform>().rotation = Quaternion.Euler(5.1f, 266f, 0);
+        _camera.GetComponent<Transform>().position = new Vector3(15.67f, 1.48f, 25.8f);
+        _camera.GetComponent<Transform>().rotation = Quaternion.Euler(5.1f, 268f, 0);
         WomenCOntrollers.SetActive(true);
         heartImage.SetActive(false);
         rotateCameraScript.enabled = false;
