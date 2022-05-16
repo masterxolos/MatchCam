@@ -46,6 +46,7 @@ public class DetectObj : MonoBehaviour
         if (firstTime == true)
         {
           heartImage.SetActive(true); 
+          gameObject.GetComponentInChildren<SpriteRenderer>().enabled = false;
           StartCoroutine(WaitForHeart());
           firstTime = false;    
         }
