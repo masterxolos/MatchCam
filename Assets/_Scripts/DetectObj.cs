@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Tabtale.TTPlugins;
 using UnityEngine;
 using UnityEngine.UI;
+using DG.Tweening;
 
 public class DetectObj : MonoBehaviour
 {
@@ -17,6 +18,8 @@ public class DetectObj : MonoBehaviour
 
     [SerializeField] private RotateCamera rotateCameraScript;
     [SerializeField] private GameObject WomenCOntrollers;
+    [SerializeField] private GameObject acilacakObje;
+    [SerializeField] private float sure;
     
     private void Awake()
     {
@@ -66,6 +69,8 @@ public class DetectObj : MonoBehaviour
         WomenCOntrollers.SetActive(true);
         heartImage.SetActive(false);
         rotateCameraScript.enabled = false;
-
+        yield return new WaitForSeconds(sure);
+        acilacakObje.SetActive(true);
+        acilacakObje.GetComponent<SpriteRenderer>().DoFade(100, sure);
     }
 }
