@@ -19,6 +19,7 @@ public class DetectObj : MonoBehaviour
     [SerializeField] private RotateCamera rotateCameraScript;
     [SerializeField] private GameObject WomenCOntrollers;
     [SerializeField] private GameObject acilacakObje;
+    [SerializeField] private GameObject failCanvas;
     [SerializeField] private float sure;
     
     private void Awake()
@@ -70,8 +71,10 @@ public class DetectObj : MonoBehaviour
         WomenCOntrollers.SetActive(true);
         heartImage.SetActive(false);
         rotateCameraScript.enabled = false;
+        //acilacakObje.SetActive(true);
+        Color color = new Color(255, 255, 255, 255);
+        acilacakObje.GetComponent<SpriteRenderer>().DOColor(color, 4);
         yield return new WaitForSeconds(sure);
-        acilacakObje.SetActive(true);
-        acilacakObje.GetComponent<SpriteRenderer>().DoFade(100, sure);
+        failCanvas.SetActive(true);
     }
 }
