@@ -73,8 +73,8 @@ public class DetectObj : MonoBehaviour
         rotateCameraScript.enabled = false;
         //acilacakObje.SetActive(true);
         Color color = new Color(255, 255, 255, 255);
-        acilacakObje.GetComponent<SpriteRenderer>().DOColor(color, 4);
+        //acilacakObje.GetComponent<SpriteRenderer>().DOColor(color, 4);
         yield return new WaitForSeconds(sure);
-        failCanvas.SetActive(true);
+        //failCanvas.SetActive(true);
     }
 }
